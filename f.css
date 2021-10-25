@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+    outline: none;
+    color:inherit;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.card_wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 161, 73);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .4);
+    transition: all 0.75s;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.card_img {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.card_heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+.card_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.card_wrapper:hover{
+    transform: scale(1.2);
+}
