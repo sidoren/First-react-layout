@@ -24,9 +24,9 @@ function App() {
   return (
 <>
 <header class = "header">
-  <Card link ="https://www.aviasales.ua/" img = {airplane} title = "hello" description = 'azaaadsa' />
-  <Card link ="https://www.aviasales.ua/" img = {auto} title = "hello" description = 'azaaadsa' />
-  <Card link ="https://www.aviasales.ua/" img = 'train.png' title = "hello" description = 'azaaadsa' />
+  <Card link ="https://www.aviasales.ua/" img = {airplane} title = "Airplane" description = 'Select this block!' />
+  <Card link ="https://www.aviasales.ua/" img = {auto} title = "Auto" description = 'Lorem 1,2,3,4,5' />
+  <Card link ="https://www.aviasales.ua/" img = 'train.png' title = "Train" description = 'Poezd delaet chuch-chuch' />
 </header>
 </>
 )
